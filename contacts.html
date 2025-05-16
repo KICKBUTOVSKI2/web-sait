@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Цветник</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка (как на других страницах) -->
+    <header>
+        <div class="logo">
+            <img src="img/logo2.png" alt="Цветник">
+            <span>Цветник</span>
+        </div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="about.html">О нас</a>
+            <a href="contacts.html" class="active">Контакты</a>
+        </nav>
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+            <!-- Основное содержимое страницы -->
+        <div class="contacts-container">
+            <h1><i class="fas fa-map-marker-alt"></i> Наши контакты</h1>
+            
+            <div class="contacts-grid">
+                <!-- Адрес -->
+                <div class="contact-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Адрес</h3>
+                    <p>г. Ставрополь, 3-я Промышленная улица, 13А</p>
+                </div>
+                
+                <!-- Часы работы -->
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Часы работы</h3>
+                    <p>Пн-Пт: 9:00 - 18:00</p>
+                    <p>Сб-Вс: 10:00 - 17:00</p>
+                </div>
+                
+                <!-- Телефоны -->
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Телефоны</h3>
+                    <p>+7 (920) 405-88-94</p>
+                </div>
+                
+                <!-- Почта -->
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Электронная почта</h3>
+                    <p>info26cvetnik@mail.ru</p>
+                </div>
+                
+                <!-- Карта -->
+                <div class="contact-map">
+                    <div class="map-container">
+                        <a href="https://yandex.ru/maps/-/CHvbn-k2" target="_blank" rel="noopener">
+                            <img src="img/снимок.png" 
+                                alt="Карта с расположением магазина"
+                                loading="lazy">
+                        </a>
+                    </div>
+                    <div class="map-caption">Наш магазин на карте (нажмите для просмотра)</div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Подвал (как на других страницах) -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <p><i class="fas fa-map-marker-alt"></i> г. Ставрополь, 3-я Промышленная ул., 13А</p>
+                <p><i class="fas fa-phone"></i> +7 (920) 405-88-94</p>
+            </div>
+            <div class="footer-section">
+                <h4>Часы работы</h4>
+                <p>Пн-Пт: 9:00 - 18:00</p>
+                <p>Сб-Вс: 10:00 - 17:00</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 "Цветник". Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

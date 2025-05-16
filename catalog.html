@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог цветов | Цветник</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="logo">
+            <img src="img/logo2.png" alt="Цветник">
+            <span>Цветник</span>
+        </div>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html" class="active">Каталог</a>
+            <a href="about.html">О нас</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+        <div class="cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <!-- Основное содержимое -->
+    <div class="container">
+        <!-- Боковая панель с категориями (как на главной) -->
+        <aside class="sidebar">
+            <h3>Категории</h3>
+            <ul class="categories">
+                <li><a href="#home"><i class="fas fa-home"></i> Для дома</a></li>
+                <li><a href="#cottage"><i class="fas fa-tree"></i> Для дачи</a></li>
+                <li><a href="#holiday"><i class="fas fa-gift"></i> Праздничные букеты</a></li>
+                <li><a href="#roses"><img src="img/rose .png" class="rose-icon"> Розы</a></li>
+                <li><a href="#orchids"><i class="fas fa-leaf"></i> Орхидеи</a></li>
+            </ul>
+        </aside>
+
+        <!-- Основной контент каталога -->
+        <main class="main-content">
+            <section class="catalog-header">
+                <h1><i class="fas fa-store"></i> Каталог цветов</h1>
+                <p>Все товары по категориям</p>
+            </section>
+            
+            <!-- Категория "Для дома" -->
+            <section class="category-section" id="home">
+                <h2><i class="fas fa-home"></i> Для дома</h2>
+                <div class="products-grid">
+                    <!-- Товар 1 -->
+                    <div class="product">
+                        <img src="img/fikus1-226x300.jpeg" alt="Фикус Бенджамина" loading="lazy">
+                        <h3>Фикус Бенджамина</h3>
+                        <p>1 800 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <!-- Товар 2 -->
+                    <div class="product">
+                        <img src="img/zamil.jpg" alt="Замиокулькас" loading="lazy">
+                        <h3>Замиокулькас</h3>
+                        <p>2 300 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <!-- Товар 3 -->
+                    <div class="product">
+                        <img src="img/spati.webp" alt="Спатифиллум" loading="lazy">
+                        <h3>Спатифиллум</h3>
+                        <p>1 900 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <!-- Товар 4 -->
+                    <div class="product">
+                        <img src="img/xloro.jpg" alt="Хлорофитум" loading="lazy">
+                        <h3>Хлорофитум</h3>
+                        <p>1 200 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <!-- Товар 5 -->
+                    <div class="product">
+                        <img src="img/geran.jpg" alt="Герань" loading="lazy">
+                        <h3>Герань</h3>
+                        <p>950 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Категория "Для дачи" -->
+            <section class="category-section" id="cottage">
+                <h2><i class="fas fa-tree"></i> Для дачи</h2>
+                <div class="products-grid">
+                    <!-- Товары 6-10 -->
+                    <div class="product">
+                        <img src="img/пионы.jpg" alt="Пионы" loading="lazy">
+                        <h3>Пионы</h3>
+                        <p>1 500 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    <div class="product">
+                        <img src="img/гортензии.webp" alt="Гортензии" loading="lazy">
+                        <h3>Гортензии</h3>
+                        <p>2 100 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 3 -->
+                    <div class="product">
+                        <img src="img/лилии.jpg" alt="Лилии" loading="lazy">
+                        <h3>Лилии</h3>
+                        <p>1 800 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 4 -->
+                    <div class="product">
+                        <img src="img/флоксы.jpg" alt="Флоксы" loading="lazy">
+                        <h3>Флоксы</h3>
+                        <p>1 300 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 5 -->
+                    <div class="product">
+                        <img src="img/ирисы.jpg" alt="Ирисы" loading="lazy">
+                        <h3>Ирисы</h3>
+                        <p>1 400 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Категория "Праздничные букеты" -->
+            <section class="category-section" id="holiday">
+                <h2><i class="fas fa-gift"></i> Праздничные букеты</h2>
+                <div class="products-grid">
+                    <!-- Товар 1 -->
+                    <div class="product">
+                        <img src="img/nezhnost.jpg" alt="Букет Нежность" loading="lazy">
+                        <h3>Букет "Нежность"</h3>
+                        <p>2 500 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 2 -->
+                    <div class="product">
+                        <img src="img/романтика.webp" alt="Букет Романтика" loading="lazy">
+                        <h3>Букет "Романтика"</h3>
+                        <p>3 200 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 3 -->
+                    <div class="product">
+                        <img src="img/элегантность.webp" alt="Букет Элегантность" loading="lazy">
+                        <h3>Букет "Элегантность"</h3>
+                        <p>3 800 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 4 -->
+                    <div class="product">
+                        <img src="img/радость.jpg" alt="Букет Радость" loading="lazy">
+                        <h3>Букет "Радость"</h3>
+                        <p>2 900 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 5 -->
+                    <div class="product">
+                        <img src="img/вдохновение.jpg" alt="Букет Вдохновение" loading="lazy">
+                        <h3>Букет "Вдохновение"</h3>
+                        <p>3 500 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Категория "Розы" -->
+            <section class="category-section" id="roses">
+                <h2><img src="img/rose .png" class="rose-icon"> Розы</h2>
+                <div class="products-grid">
+                    <!-- Товар 1 -->
+                    <div class="product">
+                        <img src="img/красная.webp" alt="Розы Красные" loading="lazy">
+                        <h3>"Красная страсть"</h3>
+                        <p>2 800 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 2 -->
+                    <div class="product">
+                        <img src="img/белое.webp" alt="Розы Белые" loading="lazy">
+                        <h3>"Белое облако"</h3>
+                        <p>2 600 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 3 -->
+                    <div class="product">
+                        <img src="img/роз роза.webp" alt="Розы Розовые" loading="lazy">
+                        <h3>"Розовый рассвет"</h3>
+                        <p>2 700 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 4 -->
+                    <div class="product">
+                        <img src="img/желтаяч.webp" alt="Розы Желтые" loading="lazy">
+                        <h3>"Золотое сияние"</h3>
+                        <p>2 900 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 5 -->
+                    <div class="product">
+                        <img src="img/микс.webp" alt="Розы Микс" loading="lazy">
+                        <h3>"Радужный микс"</h3>
+                        <p>3 100 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Категория "Орхидеи" -->
+            <section class="category-section" id="orchids">
+                <h2><i class="fas fa-leaf"></i> Орхидеи</h2>
+                <div class="products-grid">
+                    <!-- Товар 1 -->
+                    <div class="product">
+                        <img src="img/орхидея белая.webp" alt="Орхидея Фаленопсис" loading="lazy">
+                        <h3>Орхидея "Белая"</h3>
+                        <p>3 500 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 2 -->
+                    <div class="product">
+                        <img src="img/фиол.jpg" alt="Орхидея Фиолетовая" loading="lazy">
+                        <h3>Орхидея "Фиолетовая"</h3>
+                        <p>3 700 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 3 -->
+                    <div class="product">
+                        <img src="img/желтая.jpg" alt="Орхидея Желтая" loading="lazy">
+                        <h3>Орхидея "Желтая"</h3>
+                        <p>3 600 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 4 -->
+                    <div class="product">
+                        <img src="img/розовая.jpg" alt="Орхидея Розовая" loading="lazy">
+                        <h3>Орхидея "Розовая"</h3>
+                        <p>3 800 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                    
+                    <!-- Товар 5 -->
+                    <div class="product">
+                        <img src="img/цвект.jpg" alt="Орхидея Микс" loading="lazy">
+                        <h3>"Цветной микс"</h3>
+                        <p>4 000 ₽</p>
+                        <button class="add-to-cart">В корзину</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Подвал -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <p><i class="fas fa-map-marker-alt"></i> г. Ставрополь, 3-я Промышленная ул., 13А</p>
+                <p><i class="fas fa-phone"></i> +7 (920) 405-88-94</p>
+            </div>
+            <div class="footer-section">
+                <h4>Часы работы</h4>
+                <p>Пн-Пт: 9:00 - 18:00</p>
+                <p>Сб-Вс: 10:00 - 17:00</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 "Цветник". Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно корзины -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <span class="close-cart">&times;</span>
+            <h2><i class="fas fa-shopping-cart"></i> Ваша корзина</h2>
+            <div class="cart-items">
+                <!-- Товары будут появляться здесь автоматически -->
+            </div>
+            <div class="cart-total">
+                <strong>Итого: <span id="totalPrice">0</span> ₽</strong>
+            </div>
+            <button class="checkout-btn">Оформить заказ</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
