@@ -573,3 +573,26 @@ function showCartNotification(productName = '') {
     notification.classList.remove('show');
   }, 3000);
 }
+
+/* ADMIN*/
+// Обработчик формы входа
+document.getElementById('loginForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const email = document.getElementById('loginEmail').value;
+    const password = document.getElementById('loginPassword').value;
+    
+    if (email === 'admin@admin' && password === 'admin') {
+        localStorage.setItem('isAdmin', 'true');
+        window.location.href = 'admin-panel.html';
+    } 
+});
+
+// Проверка авторизации при загрузке
+if (window.location.pathname.includes('admin-panel')) {
+    if (localStorage.getItem('isAdmin') !== 'true') {
+        window.location.href = 'index.html';
+    }
+}
+
+
