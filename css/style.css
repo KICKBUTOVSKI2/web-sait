@@ -1741,3 +1741,41 @@ input.error {
     font-size: 50px;
     margin-bottom: 15px;
 }
+/*admin*/
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Админ-панель */
+.admin-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.admin-menu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.admin-menu button {
+    padding: 8px 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admin-menu button:hover {
+    background: #45a049;
+}
+
+.admin-content {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 300px;
+}
